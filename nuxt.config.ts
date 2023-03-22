@@ -4,5 +4,9 @@ export default defineNuxtConfig({
     ssr: false,
     build:{
         transpile:["vuetify"]
+    },
+    app:{
+        baseURL:"/project-news-homepage-layout/",
+        cdnURL:"https://mikespinks0401.github.io"
     }
 })
