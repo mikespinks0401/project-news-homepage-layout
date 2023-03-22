@@ -13,17 +13,17 @@ const articles = [
   {
     title: "Reviving Retro PCs",
     text: "What happens when old PCs are given modern upgrades?",
-    img: "/image-retro-pcs.jpg"
+    img: "image-retro-pcs.jpg"
   },
   {
     title: "Top 10 Laptops of 2022",
     text: "Our best picks for various needs and budgets.",
-    img: "/image-top-laptops.jpg"
+    img: "image-top-laptops.jpg"
   },
   {
     title: "The Growth of Gaming",
     text: "How the pandemic has sparked fresh opportunities.",
-    img: "/image-gaming-growth.jpg"
+    img: "image-gaming-growth.jpg"
   }
 ]
 
@@ -83,9 +83,7 @@ const articles = [
                     the hands of the people.
                     But is it really fulfilling its promise?</p>
                   <div>
-                    <v-btn
-                      class="bg-red mt-2 px-10"
-                    >
+                    <v-btn class="bg-red mt-2 px-10">
                       Read More
                     </v-btn>
                   </div>
