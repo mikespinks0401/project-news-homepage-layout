@@ -51,7 +51,7 @@ jobs:
         with:
           node-version: "16"
       - name: Setup Pages
-        uses: mikespinks0401/configure-pages@97e0a6882a9731c7eb414432e5830caba7b790ae
+        uses: mikespinks0401/configure-pages@main
         with:
           static_site_generator: 'nuxt3'
       - name: Install dependencies
