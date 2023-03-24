@@ -49,11 +49,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "18"
       - name: Setup Pages
-        uses: mikespinks0401/configure-pages@main
+        uses: actions/configure-pages@v3
         with:
-          static_site_generator: 'nuxt3'
+          static_site_generator: nuxt
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
